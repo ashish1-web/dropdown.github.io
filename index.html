@@ -9,17 +9,20 @@
   <body id="mainb">
     
    
+   
+    <h1 class="container2">Restaurant_Menu</h1>
     
-    <h1 class="container2">MasterChef's Restaurant_Menu</h1>
-    
-    
+    <div class="d-flex flex-row justify-content-between">
+
     <div class="container1">
-      <select name="item restaurant-dropdown restaurant" class="custom-select custom-select-lg mb-3" id="restaurant">
+      <select name="item restaurant-dropdown restaurant" class="custom-select custom-select-lg mb-3 bg-dark text-white" id="restaurant">
         <option value="">Select Your Menu</option>
-    </select>
-    <br>
-  
-    <table id="tables" class="table table-light table table-hover table-bordered table_data">
+      </select>
+      <br>
+    </div>
+
+    <div>
+    <table id="tables" class="table table-dark table table-hover table-bordered table_data">
       <tr>
         <th>Name</th>
         <td id="menuname"></td>
@@ -45,7 +48,7 @@
         <td id="plarge"></td>
       </tr>
     </table>
-  
+  </div>
 
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
